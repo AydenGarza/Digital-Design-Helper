@@ -109,7 +109,7 @@ class booleanFunction ():
         #for x in truthtable:
             #print(x)
         return truthtable
-
+'''
 inputExpression = input("type your boolean expression")
 testFunction = booleanFunction(inputExpression)
 truthtable = testFunction.generateTruthTable()
@@ -120,3 +120,4 @@ print("The unformatted truth table: " + f'{testFunction.generateTruthTable()}')
 print("The formatted truth table: ")
 for row in truthtable:
     print(row)
+'''
