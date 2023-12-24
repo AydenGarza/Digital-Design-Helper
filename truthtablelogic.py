@@ -14,6 +14,7 @@ class booleanFunction ():
         self.booleanExpression = booleanExpression.replace(" ", "")
         self.literalsPresent = booleanFunction.getLiterals(self.booleanExpression)
         self.numLiterals = len(self.literalsPresent)
+        self.truthTable = self.generateTruthTable()
     #creates and returns an array with all literals present in a given boolean expression string
     def getLiterals(expressionString):
         listOfLiteralsPresent = []
